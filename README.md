@@ -1,16 +1,26 @@
 //보고서
 
 //요구사항
-import numpy as np\n
-import matplotlib.pyplot as plt\n
-from scipy.io import wavfile\n
-from denoise import AudioDeNoise
-import speech_recognition as sr
-from gtts import gTTS
 import numpy as np
+
+import matplotlib.pyplot as plt
+
+from scipy.io import wavfile
+
+from denoise import AudioDeNoise
+
+import speech_recognition as sr
+
+from gtts import gTTS
+
+import numpy as np
+
 import pywt
+
 import soundfile
+
 from tqdm import tqdm
+
 from lib.noiseProfiler import NoiseProfiler
 
 
