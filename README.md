@@ -35,3 +35,9 @@ https://github.com/AP-Atul/Audio-Denoising
 https://prlabhotelshoe.tistory.com/8  
 
 // 발표 슬라이드 내용과 구체적인 설명
+-block diagram : 입력으로 받은 wav 파일을 denoising 과정을 거쳐 text 파일로 변환하고, 이것을 다시 gtts를 이용하여 목소리를 교체 후 .wav 로 저장합니다.-
+gtts : google 의 text-to-speech 를 사용하여 텍스트를 음성으로 변환하는 파이썬 라이브러리.
+denoise process는 오픈소스를 활용하였습니다.
+노이즈 제거 전후의 차이를 눈으로 파악하기 위해 matplotlib를 활용하여 원본 wav와 denoise된 wav를 그래프로 표시합니다
+recognition_speech로 wav 파일을 읽어 그 대본을 txt 형식으로 작업 폴더 안에 저장합니다.
+저장된 txt를 다시 gtts로 읽습니다.
